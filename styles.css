@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  height: 25px;
+}
+
+input {
+  border: none;
+  outline-style: none;
+  width: 100%;
+}
+
+legend, label, select, option {
+  font-size: 16px;
+}
+
+.section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.form-courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.courses {
+  width: 75%;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #969696;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  legend, label, select {
+    font-size: 16px;
+  }
+}

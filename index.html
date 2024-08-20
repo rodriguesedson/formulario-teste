@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulário Teste</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="section-form">
+    <form action="" class="form">
+      <fieldset>
+        <legend>Nome</legend>
+        <input type="text" id="name" name="name">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Email</legend>
+        <input type="email" id="email" name="email">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Matrícula</legend>
+        <input type="number" id="id_number" name="id_number">
+      </fieldset>
+      
+      <div class="form-courses">
+        <label>Curso Desejado</label>
+        <select name="courses" id="courses" class="courses">
+          <option value="select" selected disabled>Selecione uma opção</option>
+          <option value="javascript">JavaScript</option>
+          <option value="c#">C#</option>
+          <option value="Java">Java</option>
+        </select>
+      </div>
+
+      <div class="btn-box">
+        <button type="submit" class="btn" id="btn-submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>

@@ -10,6 +10,7 @@
 </head>
 <body>
   <section class="section-form">
+    <h1>Formulário de Cadastro</h1>
     <form action="" class="form">
       <fieldset>
         <legend>Nome</legend>
@@ -39,6 +40,11 @@
       <fieldset>
         <legend>Senha</legend>
         <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Mín. 8 caracteres (1, A, a)">
+      </fieldset>
+
+      <fieldset>
+        <legend>Repita a senha</legend>
+        <input type="password" id="password-rewrite" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Mín. 8 caracteres (1, A, a)">
       </fieldset>
 
       <div class="btn-box">
